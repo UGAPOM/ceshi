@@ -1,0 +1,118 @@
+
+.lc_right2{
+    float: right;
+    width:770px;
+    height:870px;
+    padding: 7px;
+    /*border:1px solid firebrick;*/
+    /*background-color: #e9edf4;*/
+}
+
+#lcr2c_hea{
+    padding-left:10px;
+    width:760px;
+    height: 38px;
+    border-bottom:2px solid #c4bcbc;
+
+}
+#lcr2c_hea li{
+    color: #888888;
+    font-size: 14px;
+    font-family: 微软雅黑;
+    list-style: none;
+    float: left;
+    width:85px;
+    height: 36px;
+    text-align: center;
+    line-height: 36px;
+    /*border-bottom:2px solid #c4bcbc;*/
+
+}
+#lcr2c_con{
+    margin-top: 5px;
+    width:770px;
+    height:650px;
+    /*border:1px solid firebrick;*/
+    position: relative;
+
+}
+#lcr2c_con li{
+    list-style: none;
+}
+
+#lcr2c_con .lcr2c_con_tab{
+    display: none;
+    width:770px;
+    height:645px;
+    /*position: absolute;*/
+    /*border:1px solid firebrick;*/
+    position: absolute;
+
+}
+#lcr2c_con .lcr2c_ctb_show{
+    display: block;
+}
+#lcr2c_hea .tab_li_show{
+    border-bottom:3px solid white;
+    border-top:2px solid #188eee;
+    border-left:1px solid #c4bcbc;
+    border-right:1px solid #c4bcbc;
+    color: black;
+}
+.table_th{
+    float: left;
+    width: 770px;
+    height:38px;
+    border-bottom:1px solid #c4bcbc;
+    line-height: 38px;
+}
+#lcr2c_con .table_th li{
+    font-size: 14px;
+    float: left;
+    width:200px;
+    text-align: center;
+    height:40px;
+    font-family: 微软雅黑;
+}
+.table_td {
+    float: left;
+    width: 770px;
+    height:38px;
+    border-bottom:1px dashed #c4bcbc;
+
+}
+#lcr2c_con .table_td li{
+    float: left;
+    width:200px;
+    text-align: center;
+    height:38px;
+    font-size: 14px;
+    font-family: 微软雅黑;
+    color: #666666;
+    line-height: 38px;
+
+}
+#lcr2c_con .table_td li span{
+    float: left;
+}
+
+#lcr2c_con .table_td li i{
+    float: left;
+    margin:2px 8px 0px 25px
+}
+.jdt{
+    float:left;
+    margin:15px 0px 0px 55px;
+    width: 92px;
+    height:7px;
+    _height:7px;
+    background-color: #e2e2e3;
+}
+.jdt span{
+    float:left;
+    width:60%;
+    height:7px;
+    _height:7px;
+    background-color:#93c251;
+}
+
