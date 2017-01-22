@@ -1,0 +1,98 @@
+
+*{
+    padding:0;
+    margin:0;
+}
+html{
+    height:100%;
+}
+body{
+    position: relative;
+    height: 100%;
+}
+/*.dl_hea{*/
+    /*padding-top:0px;*/
+    /*margin:0 auto;*/
+    /*width:100%;*/
+    /*height:70px;*/
+    /*background-color: #e6e6e6;*/
+    /*border-bottom: 2px solid #188eee;*/
+/*}*/
+/*.dlh_con{*/
+    /*width: 1000px;*/
+    /*height: 69px;*/
+    /*margin:0 auto;*/
+/*}*/
+/*.dl_hea_img, .dl_logo_txt{*/
+    /*float: left;*/
+    /*margin: 5px 0px 0px 10px;*/
+/*}*/
+/*.dl_logo_txt{*/
+    /*margin-left:15px;*/
+    /*width:350px;*/
+    /*height: 70px;*/
+/*}*/
+/*.dl_logo_txt div{*/
+    /*font-family:微软雅黑;*/
+    /*margin:5px ;*/
+/*}*/
+/*.dlt_t1{*/
+    /*font-size:20px ;*/
+/*}*/
+/*.dlt_t2{*/
+    /*font-size:10px ;*/
+/*}*/
+.denglu{
+    margin:0 auto;
+    width:1000px;
+    height:75%;
+    background: url(../img/denglu.jpg) 65% 89% no-repeat;
+}
+.denglu div{
+    width: 452px;
+    margin:0 auto;
+    height: 50%;
+
+}
+.denglu .dl_con_hea{
+    padding-top:20%;
+    height: 55%;
+    line-height: 75px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+}
+.dl_con_inp{
+    height:45%;
+}
+.dl_con_inp input{
+    float: left;
+    width: 335px;
+    height: 50px;
+    padding-left:15px;
+    pading-top:10px;
+    line-height: 50px\9; /*ie7,8 input垂直居中*/
+    padding-left:15px\9;
+    font-size:20px;
+}
+.dl_con_inp button{
+    float: right;
+    width:90px;
+    height: 52px;
+    border:none;
+    background-color:#188eee ;
+    color: white;
+    font-size:19px;
+    font-family: 微软雅黑;
+}
+/*.dl_foot{*/
+    /*font-family: 微软雅黑;*/
+    /*margin:0 auto;*/
+    /*width:100%;*/
+    /*height: 60px;*/
+    /*line-height: 60px;*/
+    /*text-align:center;*/
+    /*font-size: 10px;*/
+    /*color: gray;*/
+/*}*/
