@@ -1,0 +1,76 @@
+/*视频播放*/
+.tri_up{
+    display: none;
+}
+/*进度条*/
+.jdt{
+    height:16px;
+}
+
+/*课件展示进度条*/
+.time_length .time_jdt{
+    height: 17px;
+}
+.time_length div{
+    padding:45px 15px 0px 15px;
+    text-align: center;
+}
+.time_length .timejdt_txt{
+    padding-top: 15px;
+    padding-left:10px;
+}
+/*翻页器*/
+#change_page{
+    /*float: left;*/
+    width: 450px;
+    height: 42px;
+    margin:20px 0px 0px 170px;
+}
+/*学习任务内容小块*/
+.lcrc1_div{
+    width: 220px;
+    height: 175px;
+    /*border:1px solid blueviolet;*/
+    float:left;
+    margin:8px 8px 8px 8px;
+}
+.lcrc1_div_con2{
+    display: none;
+    /*position: absolute;*/
+    /*z-index: 22;*/
+    /*border:1px solid blueviolet;*/
+    /*width: 100%;*/
+    /*height: 30px;*/
+    /*bottom: 0px;*/
+    /*background-color:rgba(0,0,0,0.35);*/
+}
+/*学习资源tab标题样式*/
+#lcr2c_hea{
+    padding-left:10px;
+    width:760px;
+    height: 36px;
+    border-bottom:2px solid #c4bcbc;
+
+}
+#lcr2c_hea li{
+    color: #888888;
+    font-size: 14px;
+    font-family: 微软雅黑;
+    list-style: none;
+    float: left;
+    width:85px;
+    height: 38px;
+    text-align: center;
+    line-height: 38px;
+}
+/*学习资源table样式*/
+/*ie6下table的tr不支持border属性，设置th和td即可*/
+table{
+    width:770px;
+}
+.table_th th{
+    border-bottom:1px solid #c4bcbc;
+}
+.table_td td{
+    border-bottom:1px dashed #c4bcbc;
+}
