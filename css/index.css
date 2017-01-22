@@ -1,0 +1,246 @@
+
+*{
+    padding:0;
+    margin:0;
+}
+.learn_hea{
+    width: 100%;
+    height:auto;
+    border-bottom: 2px solid #188eee;
+}
+.lh_h1{
+    width:100%;
+    height:30px;
+    background-color: #4c4c4c;
+}
+.lh_h1_con{
+    width: 1000px;
+    margin:0 auto;
+    /*border:1px solid peachpuff;*/
+    height:100%;
+}
+.lh_h1_con div{
+    float: right;
+    line-height: 30px;
+    color:lightgrey;
+    font-family: 微软雅黑;
+    font-size: 14px;
+}
+.h_line{
+
+    margin:0px 10px 0px 10px;
+}
+.lh_h2{
+    width:100%;
+    height:75px;
+    background-color: #e6e6e6;
+}
+.lh_h2_con{
+    width: 1000px;
+    margin:0 auto;
+    /*border:1px solid peachpuff;*/
+    height:100%;
+}
+.lh_h2c_left{
+    float: left;
+    /*border: 1px solid darkcyan;*/
+}
+.lh_hea_img,.lh_logo_txt{
+    margin-top: 8px;
+    float: left;
+}
+.lh_logo_txt div{
+    font-family: 微软雅黑;
+    margin:5px ;
+    color: #0072a8;
+}
+.lht_t1{
+    font-size:20px ;
+}
+.lht_t2{
+    font-size:10px ;
+}
+.lh_logo_txt{
+    margin-left:15px;
+    width:350px;
+    height: 65px;
+}
+.lh_h2c_right{
+    float: right;
+    /*border: 1px solid darkcyan;*/
+    width: 300px;
+    height: 40px;
+    margin-top: 17px;
+}
+.lh_h2c_right input{
+    border:1px solid #188eee ;
+    width:230px;
+    height: 36px;
+    float: left;
+    padding-left:23px;
+    pading-top:10px;
+    line-height: 36px\9;
+    padding-left:15px\9;
+    color: lightgrey;
+    font-family: 微软雅黑;
+    /*font-size:20px;*/
+}
+.lh_h2c_right button{
+    width:45px;
+    height: 38px;
+    float: left;
+    border:none;
+    background-color:#188eee ;
+    color: white;
+    margin-left: -10px ;
+    font-family: 微软雅黑;
+}
+.learn_con{
+    width:1000px;
+    height: 890px;
+    margin:0 auto;
+    /*border: 1px solid cornflowerblue;*/
+}
+.lc_left{
+    float: left;
+    width: 200px;
+    height:100%;
+    background-color: #e6e6e6;
+    border-right: 1px solid #8b8b8c;
+}
+
+.lcl_person{
+    position: relative;
+    width:100%;
+    height: 180px;
+    border-bottom: 1px solid lightgrey;
+}
+.lcl_person img{
+    width:80px;
+    height: 80px;
+    border-radius: 40px;
+    /*border:1px solid firebrick;*/
+    position: absolute;
+    left: 65px;
+    top: 30px;
+}
+.lcl_person .name{
+    position: absolute;
+    left: 88px;
+    top: 125px;
+    /*border:1px solid firebrick;*/
+    color: #666666;
+}
+.lcl_person .person_info{
+    position: absolute;
+    left: 25px;
+    top: 150px;
+    /*border:1px solid firebrick;*/
+    color: #666666;
+
+}
+
+.lcl_info{
+    width:100%;
+    height:45px;
+    border-bottom: 1px solid lightgrey;
+    color: #4c4c4c;
+    font-style: normal;
+}
+.lcl_info_click{
+    background-color: #188eee;
+    color: white;
+}
+.lcl_info i{
+    width:15px;
+    height: 15px;
+    float: left;
+    margin:15px 10px 0px 25px;
+}
+.lcl_info span{
+    line-height: 45px;
+    font-size: medium;
+    font-family: 微软雅黑;
+}
+/*.lcl_info:hover{*/
+    /*background-color: cornflowerblue;*/
+    /*color: white;*/
+/*}*/
+.learn_foo{
+    width:100%;
+    height:100px;
+    background-color: #4c4c4c;
+}
+.lf_con1{
+    width: 270px;
+    height: 45px;
+    margin:0 auto;
+    /*margin-top:5px;*/
+    /*border: 1px solid firebrick;*/
+}
+.lf_con2{
+    width:430px;
+    height: 45px;
+    margin:0 auto;
+    margin-top:5px;
+    /*border: 1px solid firebrick;*/
+}
+.lf_con1 div{
+    float: left;
+    line-height: 45px;
+}
+.lf_line{
+    color:white;
+    margin: 0px 15px 0px 15px;
+}
+.lf_con1 div a{
+    font-family: 微软雅黑;
+    text-decoration: none;
+    color:white;
+}
+.lf_con1 div a:hover{
+    color:grey;
+}
+.lf_con2 img{
+    width: 25px;
+    height: 25px;
+    margin:10px 10px 0px 5px;
+    float: left;
+}
+.lf_con2 span{
+    float: left;
+    font-family: 微软雅黑;
+    line-height: 45px;
+    color: white;
+    font-weight: bold;
+}
+/*翻页器*/
+#change_page{
+    /*float: left;*/
+    width: 450px;
+    height: 42px;
+    margin:20px 0px 0px 175px;
+}
+#change_page li{
+    float: left;
+    list-style: none;
+    width: 38px;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    font-family: 微软雅黑;
+    color: #585858;
+    border:1px solid #cccccc;
+}
+#change_page .change_page_click{
+    background-color:#188eee ;
+    color: white;
+}
+#change_page .pageprv,#change_page .pagenxt{
+    width: 55px;
+}
+
+
+
+
+

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>视频播放</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/video.css">
+    <link rel="stylesheet" href="../iconfont/iconfont.css">
+    <!--[if IE 6]>
+    <link rel="stylesheet" href="../css/ie6_style.css">
+    <![endif]-->
+</head>
+<body>
+<div class="learn_hea">
+    <div class="lh_h1">
+        <div class="lh_h1_con">
+            <div class="lhh1c" href="#" _fcksavedurl=""#" " _fcksavedurl=""#"" style="cursor:pointer">培训管理</div>
+            <div class="h_line">|</div>
+            <div class="lhh1c" href="#" _fcksavedurl=""#" " _fcksavedurl=""#"" style="cursor:pointer">在线考试</div>
+        </div>
+    </div>
+    <div class="lh_h2">
+        <div class="lh_h2_con">
+            <div class="lh_h2c_left">
+                <div class="lh_hea_img"><img src="../img/logo.jpg" alt=""></div>
+                <div class="lh_logo_txt">
+                    <div class="lht_t1">职工在线学习系统</div>
+                    <div class="lht_t2">Online Learning System For Staff</div>
+                </div>
+            </div>
+            <div class="lh_h2c_right">
+                <input type="text" value="搜索课件">
+                <button href="#" _fcksavedurl=""#" " _fcksavedurl=""#"" style="cursor:pointer"><img src="../img/ss.jpg" alt="" ></button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="learn_con">
+    <div class="v_content">
+        <div class="v_head">
+            <div class="v_head_d3" href="#" _fcksavedurl=""#" " _fcksavedurl=""#"" style="cursor:pointer">
+            <img src="../img/return.jpg" alt="">
+            <span>返回</span>
+
+        </div>
+            <div class="v_head_d1">
+                <!--<img src="../img/v_thr_line.jpg" alt="">-->
+               高级前端开发晋升专题班
+            </div>
+            <div class="v_head_d2">
+                <div style="margin-top: 6px;"><img src="../img/touxiang.jpg" alt="" href="#" _fcksavedurl=""#" " _fcksavedurl=""#"" style="cursor:pointer"></div>
+                <div class="vhd2_dis_con" title="none">
+                    <div class="tri_up"></div>
+                    <ul>
+                        <li alt="" href="#" _fcksavedurl=""#" " _fcksavedurl=""#"" style="cursor:pointer">张三</li>
+                        <li alt="" href="#" _fcksavedurl=""#" " _fcksavedurl=""#"" style="cursor:pointer">31岁</li>
+                        <li alt="" href="#" _fcksavedurl=""#" " _fcksavedurl=""#"" style="cursor:pointer">人力资源工程师</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <div  class="v_left">
+            <div>
+                <span>第一章</span>
+                <span>上课内容按照课程表</span>
+            </div>
+            <ul class="v_left_lis">
+                <li href="#" _fcksavedurl=""#" " _fcksavedurl=""#"" style="cursor:pointer">
+                    <i class="iconfont">&#xe610;</i>
+                    <span>外汇和汇率（34分钟）</span>
+                </li>
+                <li href="#" _fcksavedurl=""#" " _fcksavedurl=""#"" style="cursor:pointer">
+                    <i class="iconfont">&#xe610;</i>
+                    <span>外汇和汇率（34分钟）</span>
+                </li>
+                <li href="#" _fcksavedurl=""#" " _fcksavedurl=""#"" style="cursor:pointer">
+                    <i class="iconfont">&#xe610;</i>
+                    <span>外汇和汇率（34分钟）</span>
+                </li>
+                <li href="#" _fcksavedurl=""#" " _fcksavedurl=""#"" style="cursor:pointer">
+                    <i class="iconfont">&#xe610;</i>
+                    <span>外汇和汇率（34分钟）</span>
+                </li>
+                <li href="#" _fcksavedurl=""#" " _fcksavedurl=""#"" style="cursor:pointer">
+                    <i class="iconfont">&#xe610;</i>
+                    <span>外汇和汇率（34分钟）</span>
+                </li>
+                <li href="#" _fcksavedurl=""#" " _fcksavedurl=""#"" style="cursor:pointer">
+                    <i class="iconfont">&#xe610;</i>
+                    <span>外汇和汇率（34分钟）</span>
+                </li>
+
+            </ul>
+        </div>
+        <div  class="v_con">
+
+        </div>
+    </div>
+</div>
+<div class="learn_foo">
+    <div class="lf_con1">
+        <div><a href="">关于阳煤</a></div>
+        <div class="lf_line">|</div>
+        <div><a href="">联系方式</a></div>
+        <div class="lf_line">|</div>
+        <div><a href="">版权声明</a></div>
+    </div>
+    <div class="lf_con2">
+        <img src="../img/foot_logo1.jpg" alt="">
+        <span>阳煤集团职工教育管理部</span>
+        <img src="../img/foot_logo2.jpg" alt="">
+        <span>北京龙软科技股份有限公司</span>
+    </div>
+</div>
+<script src="../js/jquery-1.8.3.js"></script>
+<script src="../js/lcl_info.js"></script>
+<script>
+    $(".v_head_d2 img").click(function(){
+        if( $(".vhd2_dis_con").attr("title")=="none"){
+            $(".vhd2_dis_con").addClass("vhd2d_show")
+            $(".vhd2_dis_con").attr("title","show")
+        }else if($(".vhd2_dis_con").attr("title")=="show"){
+            $(".vhd2_dis_con").removeClass("vhd2d_show")
+            $(".vhd2_dis_con").attr("title","none")
+        }
+    })
+
+    $(".vhd2_dis_con li").mouseover(function(){
+        $(this).addClass("vhd2_dis_con_li_sty")
+    })
+    $(".vhd2_dis_con li").mouseout(function(){
+        $(this).removeClass("vhd2_dis_con_li_sty")
+    })
+
+        $(".v_head_d3").mouseover(function(){
+            $(".v_head_d3 span").css("display","block")
+        })
+        $(".v_head_d3").mouseout(function(){
+            $(".v_head_d3 span").css("display","none")
+        })
+
+
+        $(".v_left_lis li").mouseover(function(){
+            $(this).css("background-color","#262a2d")
+        })
+        $(".v_left_lis li").mouseout(function(){
+            $(this).css("background-color","#2e2e2e")
+        })
+        $(".v_left_lis li").click(function(){
+            $(this).prevAll("li").find("span").css("color","#8b8b8b")
+            $(this).nextAll("li").find("span").css("color","#8b8b8b")
+            $(this).find("span").css("color","white")
+        })
+
+
+</script>
+</body>
+</html>

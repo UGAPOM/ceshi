@@ -1,0 +1,108 @@
+.lc_right1{
+    float: right;
+    margin:0;
+    width:77%;
+    height:870px;
+    padding: 7px;
+    background-color: #e9edf4;
+}
+.lcr1_type{
+    /*float: right;*/
+    background-color: white;
+    width:770px;
+    height:160px;
+}
+.lcr1_con{
+    margin-top: 7px;
+    background-color: white;
+    width:740px;
+    height:670px;
+    padding:15px;
+}
+.lcr1_type_hea{
+    width:770px;
+    height:40px ;
+    border-bottom: 1px solid  #8b8b8c;
+    /*padding-left: 15px;*/
+}
+.lcr1_type_hea span{
+    float: left;
+    margin-left: 15px;
+    line-height: 40px;
+    font-weight: bold;
+    color:#666666;
+}
+.lcr1_type_con{
+    width:770px;
+    /*border: 1px solid violet;*/
+}
+.lcr1_type_con ul{
+    margin:10px 0px 0px 15px;
+    width:750px;
+    height:30px;
+    /*border: 1px solid violet;*/
+}
+.lcr1_type_con ul li{
+    float: left;
+    list-style: none;
+    /*border: 1px solid violet;*/
+    margin-right: 10px;
+    color: #666666;
+    font-size:14px;
+    background-color: #e6e6e6;
+    font-family: 微软雅黑;
+}
+/*.lcr1_type_con ul li:hover{*/
+    /*color: white;*/
+    /*background-color:#188eee ;*/
+/*}*/
+.lcr1_type_con ul .li_fir{
+    font-weight:bold;
+    background-color:white;
+}
+.lcrc1_div{
+    width: 220px;
+    height: 175px;
+    border:2px solid white;
+    float:left;
+    margin:8px 10px 8px 10px;
+}
+.lcrc1_div_con{
+    width: 220px;
+    height:120px;
+    /*border:1px solid blueviolet;*/
+    position: relative;
+}
+.lcrc1_div_con1{
+    height:120px;
+    position: absolute;
+    z-index: 1;
+}
+.lcrc1_div_con1 img{
+    width: 220px;
+    height:120px;
+
+}
+.lcrc1_div_con2{
+    position: absolute;
+    z-index: 22;
+    /*border:1px solid blueviolet;*/
+    width: 100%;
+    height: 30px;
+    bottom: 0px;
+    background-color:rgba(0,0,0,0.35);
+}
+.lcrc1_div_con2 span{
+    float: left;
+    margin-left: 10px;
+    line-height: 30px;
+    color: white;
+    font-family: 微软雅黑;;
+}
+.lcr1_con p{
+    margin-top: 5px;
+    width:220px;
+    height: 45px;
+    font-size:14px;
+    /*border:1px solid blueviolet;*/
+}
